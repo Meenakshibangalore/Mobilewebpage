@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+background-color: hsla(341, 100%, 85%, 1)
+
+} 
+.searchtab{
+
+width: 1300px;
+height: 30px;
+margin: 10px;   
+padding: 20px;
+margin-left: 3px;
+background-color: rgb(151, 85, 100);
+}
+div > input,button{
+    float: right;
+    margin: 5px;
+    }
+    div >input{
+        width: 190px;
+        height: 30px;
+ }
+ button{
+
+    width: 120px;
+    height: 35px;
+    background-color: rgb(9, 75, 9);
+    border: 1px solid rgb(9, 75, 9);
+    color: white;
+    font-weight: bolder;
+ }
+.menubar1{
+    
+    word-spacing: 20px;
+    font-size: 15px;
+    float:right;
+    margin-right: 3px;
+    padding: 10px;
+}
+.menubar1 a{
+
+    text-decoration: none;   
+    color: white; 
+    }
+
+.menubar2{
+
+width: 1300px;
+height: 30px;
+        
+        word-spacing: 20px;
+    
+        padding: 20px;
+        margin-top: 10px;
+        margin-right: 4px;
+        float: right;
+        
+    }
+.menubar2 a{
+    color: white;
+    
+        text-decoration: none;    
+        }
+.two{
+    margin-top: 150px;
+    margin-left: 50px;
+}    
+.two img{
+    animation-name: imageslide;
+    animation-duration: 6s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    }
+    
+    @keyframes imageslide {
+    0%{left: 0px;top:0px;}
+    25%{left:90px;top:0px}
+    100%{left:0px;top:0px}
+}
+.centerthree{
+display: flex;
+margin-left: 10px;
+
+}
+.centerthree1{
+    width: 420px;
+    height: 380px;
+    background-color:white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin: 2px;
+}
+.centerthree1 p{
+width: 420px;
+height: 50px;
+background-color:rgb(69, 139, 69);
+font-size: 15px;
+
+}
+.centerthree2{
+    width: 420px;
+    height: 380px;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2px;
+}
+.centerthree2 p{
+    width: 420px;
+    height: 50px;
+    background-color: rgb(146, 94, 103);
+    font-size: 15px;
+    }
+.centerthree3{
+    width: 420px;
+    height: 380px;
+    background-color: white;
+     margin: 2px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.centerthree3 p{
+    width: 420px;
+    height: 50px;
+    background-color: rgb(89, 89, 158);
+    font-size: 15px;
+    }
+
+.centerthree1 img{
+
+    width: 400px;
+    height: 280px;
+    margin: 10px;    
+
+}
+.centerthree2 img{
+
+    width: 400px;
+    height: 280px;
+    margin: 10px;    
+
+}
+.centerthree3 img{
+
+    width: 400px;
+    height: 280px;
+    margin: 10px;    
+    
+}   
+.dealheading{
+margin-top: 40px;
+    font-size: 40px;
+}
+.firstdeal{
+
+    display: flex;
+    
+}
+.deal1{
+
+    width: 350px;
+    height: 300px;
+ 
+margin-left: 20px;
+}
+.deal1 img{
+
+    margin: 10px;
+}
+
+.deal1 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.deal2{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+
+}
+.deal2 img{
+
+    margin: 10px;
+}
+.deal2 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.deal3{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+
+}
+.deal3 img{
+
+    margin: 10px;
+}
+.deal3 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.deal4{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+
+}
+.deal4 img{
+
+    margin: 10px;
+}
+.deal4 p{
+    width: 350px;
+    height: 60px;
+ 
+    color: rgb(255, 0, 119);
+}
+
+
+.seconddeal{
+
+    display: flex;
+}
+.deal5{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+margin-top: 140px;
+}
+.deal5 img{
+
+    margin: 10px;
+}
+
+.deal5 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.deal6{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+margin-top: 140px;
+}
+.deal6 img{
+
+    margin: 10px;
+}
+.deal6 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.deal7{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+margin-top: 140px;
+}
+.deal7 img{
+
+    margin: 10px;
+}
+.deal7 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.deal8{
+
+    width: 300px;
+    height: 300px;
+    
+margin-left: 20px;
+margin-top: 140px;
+}
+.deal8 img{
+
+    margin: 10px;
+}
+.deal8 p{
+    width: 350px;
+    height: 60px;
+    
+    color: rgb(255, 0, 119);
+}
+.foot{
+
+    width: 1330px;
+    height: 200px;
+    background-color: rgb(85, 79, 79);
+    margin-top: 160px;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
